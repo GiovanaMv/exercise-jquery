@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    background-color: rgb(246, 160, 222);
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+h1 {
+    padding: 10px;
+    padding-left: 30%;
+    margin-top: 30px;
+}
+body {
+   background-color: bisque;
+}
+Img {
+    max-height: 300px;
+    max-height: 250px;
+    border-radius: 15px;
+}
+#Forma {
+    padding: 100px;
+}
+input, button {
+    max-height: 40px;
+    border-radius: 100px;
+    border: none;
+    padding: 10px;
+    font-size: bold;
+    margin-inline: 50px;
+}
+button {
+    color: white;
+    background-color: lightblue;
+}
+button:hover {
+    background-color: lightgreen;
+}
+#RatinhoBranco {
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#Garry {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 100px;
+    margin-left: 80%;
+}
+#Espadinha {
+    max-width: 90px;
+    max-height: 70px;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+#Menina {
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+button, li{
+    cursor: pointer;
+}
+.feito {
+    text-decoration: line-through;
+    
+}
